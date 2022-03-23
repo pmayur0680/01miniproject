@@ -1,0 +1,46 @@
+/* Universal Selector */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  
+  /* Element selectors */
+  body {
+    background-color: lemonchiffon;
+  }  
+  header {
+    padding: 15px;    
+    text-align: center;
+    background: #1abc9c;
+    color: white;      
+    position: sticky;
+    top: 0;    
+    width: 98%;        
+  }
+  /* Navigation Bar */
+  li {
+      display: inline;
+  }  
+  a {
+      color: white;
+  }
+  footer {
+      background: black;
+      color: white;
+      text-align: center;
+  }
+  /* End element selectors */
+
+  /* Class selectors */
+  .loginform {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #d3d15f;      
+}
+  /* End class selectors */
+
+  /* Id Selectors */
+  #name, #email {
+      margin-bottom: 3px;
+  }
+  /* End Id Selectors */
